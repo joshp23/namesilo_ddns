@@ -1,4 +1,6 @@
 #!/bin/bash
+## ns_ddns_1.0.1
+## this script will check if OpenVPN is running and update the host's ip address with Namesilo if it is not
 
 ##List of domain names (separated with spaces).
 ##Subdomains are also supported, e.g., host.example.com, sub.host.example.com
