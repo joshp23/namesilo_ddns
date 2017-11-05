@@ -1,5 +1,5 @@
-# namesilo_ddns
-Dynamic DNS record update with NameSilo.
+# ns_ddns
+Dynamic DNS record update with NameSilo. OpenVPN version.
 
 
 This is a Bash script that will update Namesilo's DNS record when a host IP address has changed, so long as OpenVPN is not running. Set this script to run as cronjob in your system for automated updates.
