@@ -1,11 +1,11 @@
-namesilo_ddns
-
+# namesilo_ddns
 Dynamic DNS record update with NameSilo.
 
-This is a Bash script that will update Namesilo's DNS record for when the host IP address has changed, so long as OpenVPN is not running. Set this script to run as cronjob in your system for automated updates.
+
+This is a Bash script that will update Namesilo's DNS record when a host IP address has changed, so long as OpenVPN is not running. Set this script to run as cronjob in your system for automated updates.
 
 Tested in Fedora 23, CentOS 7, and Ubuntu 14.04+.
-Prerequisites:
+## Prerequisites:
 
     Generate API key in the “api manager” at Namesilo
 
@@ -18,14 +18,14 @@ sudo yum install bind-utils libxml2
 on Ubuntu/Debian:
 
 sudo apt-get install dnsutils libxml2-utils
-How to use:
+## How to use:
 
     Download and save the Bash script.
     Modify the script, set “DOMAINS” and “APIKEY” at the beginning of the script.
     Set file permission to make it executable.
     Create cronjob (optional)
 
-Manual test:
+## Manual test:
 
 You should test the script to verify that actually can update the DNS record at Namesilo.
 
