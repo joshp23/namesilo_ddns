@@ -24,7 +24,7 @@ sudo apt-get install dnsutils libxml2-utils
     Modify the script, set “DOMAINS” and “APIKEY” at the beginning of the script.
     Set file permission to make it executable.
     Create cronjob (optional):
-        */30 * * * * bash /path/to/namesilo_ddns.sh >/dev/null 2>&1
+        */30 * * * * bash /path/to/ns_ddns.sh >/dev/null 2>&1
 
 ## Manual test:
 
