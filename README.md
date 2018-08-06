@@ -43,3 +43,6 @@ dig +short test.domain.tld @ns1.dnsowl.com
 (you may also try other DNS server at Namesilo, e.g. ns2.dnsowl.com， ns3.dnsowl.com )
 
 The result should show updated DNS record with your current public IP address. (Note: DNS record update need time to propagate to other DNS server, so if your check against other DNS server you may not see the update right away.)
+
+### Note:
+The author of the original work upon which this work is derived is [pztop](https://github.com/pztop/namesilo_ddns) on GitHub. The Copyright included in this release is for the derivitave work, and not the original (for which a legal name has not been provided).
